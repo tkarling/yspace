@@ -4,5 +4,11 @@
   "private": true,
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "tsc": "yarn workspace @tuija/ui tsc",
+    "tsc:watch": "yarn workspace @tuija/ui tsc -w",
+    "storybook": "yarn workspace @tuija/ui storybook",
+    "build-storybook": "yarn workspace @tuija/ui build-storybook"
+  }
 }
